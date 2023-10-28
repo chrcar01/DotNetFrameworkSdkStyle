@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "IISExpress": {
+      "commandName": "Executable",
+      "launchBrowser": true,
+      "executablePath": "C:\\Program Files (x86)\\IIS Express\\iisexpress.exe",
+      "commandLineArgs": "/path:\"$(SolutionDir)$(ProjectName)\" /port:50275 /systray:true",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:50275"
+    }
+  }
+}
